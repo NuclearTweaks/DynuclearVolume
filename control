@@ -3,7 +3,11 @@ Name: DynuclearVolume
 Version: 1.0.0
 Architecture: iphoneos-arm64
 Depends: mobilesubstrate, firmware (>= 15.0)
+Recommends: preferenceloader
 Maintainer: Spec
 Author: Spec
-Description: Notifications and Siri get louder in loud rooms, quieter in quiet ones.
+Description: Listens to the room right before a notification or Siri response
+ plays and retunes system volume to match: quiet room → your configured
+ minimum, loud room → maximum. Separate min/max sliders for notifications
+ and Siri. Applies live, no respring.
 Section: Tweaks

@@ -1,1 +1,7 @@
-{ Filter = { Bundles = ( "com.apple.springboard" ); }; }
+{
+	Filter = {
+		Classes = (
+			"UIApplication",
+		);
+	};
+}

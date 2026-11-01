@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>footerText</key>
+		<string>Right before a sound plays, your phone listens to the room for 0.12s.</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>label</key>
+		<string>Enabled</string>
+		<key>default</key>
+		<true/>
+		<key>Get</key>
+		<string>readEnabled:</string>
+		<key>Set</key>
+		<string>writeEnabled:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>label</key>
+		<string>Notifications</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSliderCell</string>
+		<key>label</key>
+		<string>Quiet room</string>
+		<key>min</key>
+		<real>0</real>
+		<key>max</key>
+		<real>1</real>
+		<key>showValue</key>
+		<false/>
+		<key>Get</key>
+		<string>readNotifMin:</string>
+		<key>Set</key>
+		<string>writeNotifMin:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSliderCell</string>
+		<key>label</key>
+		<string>Loud room</string>
+		<key>min</key>
+		<real>0</real>
+		<key>max</key>
+		<real>1</real>
+		<key>showValue</key>
+		<false/>
+		<key>Get</key>
+		<string>readNotifMax:</string>
+		<key>Set</key>
+		<string>writeNotifMax:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>label</key>
+		<string>Siri</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSliderCell</string>
+		<key>label</key>
+		<string>Quiet room</string>
+		<key>min</key>
+		<real>0</real>
+		<key>max</key>
+		<real>1</real>
+		<key>showValue</key>
+		<false/>
+		<key>Get</key>
+		<string>readSiriMin:</string>
+		<key>Set</key>
+		<string>writeSiriMin:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSliderCell</string>
+		<key>label</key>
+		<string>Loud room</string>
+		<key>min</key>
+		<real>0</real>
+		<key>max</key>
+		<real>1</real>
+		<key>showValue</key>
+		<false/>
+		<key>Get</key>
+		<string>readSiriMax:</string>
+		<key>Set</key>
+		<string>writeSiriMax:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>footerText</key>
+		<string>The mic is only on for the 0.12s sample right before a sound — never while you're using your phone otherwise. Everything applies live; no respring.</string>
+	</dict>
+</array>
+</plist>
