@@ -1,0 +1,9 @@
+Package: com.nucleartweaks.dynuclear-volume
+Name: DynuclearVolume
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: Spec
+Author: Spec
+Description: Notifications and Siri get louder in loud rooms, quieter in quiet ones.
+Section: Tweaks
